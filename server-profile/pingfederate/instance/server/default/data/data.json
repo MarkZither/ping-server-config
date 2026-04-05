@@ -1,0 +1,9 @@
+{
+  "adminUser": {
+    "username": "administrator",
+    "password": "2FederateM0re"
+  },
+  "licenseAgreement": {
+    "accepted": true
+  }
+}
