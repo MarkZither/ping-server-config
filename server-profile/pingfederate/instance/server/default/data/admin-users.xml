@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  WARNING: This file contains a plain-text password and is intended for
+  development and testing environments ONLY. Do not use in production.
+  For production deployments, use encrypted passwords or external secret management.
+-->
+<admin-users>
+    <user>
+        <username>administrator</username>
+        <password>2FederateM0re</password>
+        <role>Administrator</role>
+    </user>
+</admin-users>
