@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
   pingfederate:
+    # Pin to a specific version tag in production for reproducibility, e.g. pingidentity/pingfederate:12.1.0-latest
     image: pingidentity/pingfederate:edge
     environment:
       - SERVER_PROFILE_URL=https://github.com/MarkZither/ping-server-config.git

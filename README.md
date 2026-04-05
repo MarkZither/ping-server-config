@@ -25,6 +25,7 @@ docker compose up -d
 ```
 
 3. Access the PingFederate admin console at https://localhost:9999/pingfederate/app
+   (PingFederate uses a self-signed certificate by default — accept the browser warning for local development.)
    - Username: `administrator`
    - Password: `2FederateM0re`
 
@@ -32,3 +33,4 @@ docker compose up -d
 
 - The `server-profile/` directory is mounted into the container at `/opt/in`, which PingFederate uses to apply configuration on startup.
 - This profile provides a minimal setup with a single administrator user. No clusters, hooks, or templates are included.
+- **Security note:** The password in `admin-users.xml` is stored in plain text and is intended for **development/testing only**. Do not use this profile in production. For production, use encrypted passwords or an external secret management solution.
