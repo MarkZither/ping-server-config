@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<admin-api-authorization>
+    <authentication-mode>basic</authentication-mode>
+    <basic-auth>
+        <user>
+            <username>administrator</username>
+            <password>2FederateM0re</password>
+            <role>Administrator</role>
+        </user>
+    </basic-auth>
+</admin-api-authorization>
